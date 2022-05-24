@@ -1,0 +1,232 @@
+header{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    position: fixed;    
+    background-image: url(Multimedia/Imagen/depositphotos_24993945-stock-photo-abstract-black-background.jpg);  
+    
+}
+
+body {
+    background-image: url(Multimedia/Imagen/depositphotos_24993945-stock-photo-abstract-black-background.jpg);  
+}
+
+main{
+    padding-top: 15%;
+}
+
+.listanavegador{
+    list-style: none;
+    display: flex;
+    justify-content:right;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 8em;
+}
+nav a:hover{
+    color: red;
+    transition: all 1s;
+}
+
+footer a:hover{
+color: red;
+transition: all 1s;
+}
+
+.listacontactos a:hover{
+    color: red;
+    transition: all 1s;
+}
+
+
+.boton{
+    text-decoration: none;
+    color:rgb(102, 4, 4);
+    font-size: 30px;
+    font-family: MV Boli, fantasy;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid rgb(102, 4, 4);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.estudio{
+    background-color: black;
+    color: rgb(177, 7, 41);
+    display: inline;
+}
+
+.titulopromos{
+    background-color: black;
+    color: rgb(177, 7, 41);
+    font-family: MV Boli, fantasy;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.listafooter{
+    list-style: none;
+}
+
+.listacontactos{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.albums {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.album1:hover, .album2:hover, .album3:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+.listamusica {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contacto {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: MV Boli, fantasy;
+    background-color: black;
+    color: rgb(177, 7, 41);
+    border: 2px solid rgb(102, 4, 4);
+
+}
+
+
+
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.estudiopromos, .titulospromos{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.elestudio{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+}
+
+.elestudio2{
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-items: center;
+  justify-items: center;
+}
+
+.grillaindex {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 10px;
+  }
+  
+  .lapsuscalamislista { grid-area: 1 / 1 / 3 / 2; }
+  .galaxylista { grid-area: 1 / 3 / 3 / 4; }
+  .videoyoutube1 { grid-area: 1 / 2 / 2 / 3; }
+  .videoyoutube2 { grid-area: 2 / 2 / 3 / 3; }
+
+  
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Macondo', cursive;
+}
+.container {
+  width:100%;
+  height:80vh;
+  margin-top: -200px;
+
+}
+.card {
+  width: 60%;
+  height: 80%;
+  max-height: 300px;
+  padding: auto;
+  text-align: center;
+  background: #242625;
+  border-radius: 10px;
+  box-shadow: 25px 25px 50px #1b1c1b, -25px -25px 50px #2d302f;
+}
+  .card__container {
+    display: grid;
+    width:100%;
+    height:100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    color: rgb(177, 7, 41);
+    font-family: 'Macondo', cursive;
+  }
+  .card__content {
+    width: 90%;
+    height: 95%;
+    background: #191a19;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow:  16px 16px 44px #0a0a0a, 
+             -16px -16px 44px #282a28;
+    transition: 1s all ease-in-out;
+  }
+    .card:hover{
+      margin-top:-10px;
+    }
+  
+
+  .card__header {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 40px auto;
+    background-color: black;
+    color: rgb(177, 7, 41);
+    font-family: MV Boli, fantasy;
+  }
+
+  .card__button {
+    padding: 10px;
+    border-radius: 50px;
+    background: #1f75c4;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin: 50px auto;
+  }
+
