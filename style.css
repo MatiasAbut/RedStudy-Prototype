@@ -16,7 +16,7 @@ main{
     padding-top: 15%;
 }
 
-.listanavegador{
+.listanavegador, .listanavegadorindex{
     list-style: none;
     display: flex;
     justify-content:right;
@@ -238,4 +238,24 @@ transition: all 1s;
     margin: 50px auto;
   }
 
- 
+ /* Media queries */
+
+ @media screen and (max-width: 600px) {
+  .mainindex{
+    display: none;
+  }
+  .listanavegadorindex{
+    flex-direction: column;
+    margin-top: 2em;
+
+  }
+  *,
+*::before,
+*::after {
+  margin: 13px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Macondo', cursive;
+  margin-left: 9px;
+}
+}
