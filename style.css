@@ -45,7 +45,7 @@ transition: all 1s;
 }
 
 
-.boton{
+.boton, .botonnoindex{
     text-decoration: none;
     color:rgb(102, 4, 4);
     font-size: 30px;
@@ -62,12 +62,11 @@ transition: all 1s;
 .estudio{
     background-color: black;
     color: rgb(177, 7, 41);
-    display: flex;
-    justify-content: center;
-    
+    display: inline;
+    font-size: 1em;
 }
 
-.imgestudio {
+.imgestudio, .imgestudio1, .imgestudioservicios {
   border-radius: 10%;
 
 }
@@ -240,14 +239,21 @@ transition: all 1s;
 
  /* Media queries */
 
- @media screen and (max-width: 600px) {
-  .mainindex{
+ @media screen and (max-width: 1100px) {
+  .listaspotify{
     display: none;
   }
-  .listanavegadorindex{
+  .listanavegadorindex, .listanavegador{
     flex-direction: column;
     margin-top: 2em;
 
+  }
+  .botonnoindex{
+    font-size: 1.2em;
+
+  }
+  header{
+    position: static;
   }
   *,
 *::before,
@@ -258,4 +264,36 @@ transition: all 1s;
   font-family: 'Macondo', cursive;
   margin-left: 9px;
 }
+.elestudio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgestudio1{
+  width: 50%;
+}
+.elestudio2{
+  display: none;
+}
+
+.servicios{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulopromos{
+  align-content: center;
+  align-items: center;
+}
+
+.promospantallagrande{
+  display: none;
+}
+
+}
+@media screen and (min-width: 1100px) {
+  .promospantallachica{
+    display: none;
+  }
 }
