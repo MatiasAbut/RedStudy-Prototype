@@ -1,176 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
-   <!-- CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css">
     <title>Promos</title>
 </head>
-<body>  
+
+<body>
     <!-- INICIO HEADER -->
-    <header>  
-        <img src="Multimedia/redstudy.png" alt="RedStudy estudio de grabacion" width="250" height="250"> 
-        <nav>
-                    <ul class="listanavegador">
-                        <li>
-                            <a href="index.html" class="botonnoindex">
-                                HOME
-                            </a>
-                        </li>
-                        <li>
-                            <a href="ELESTUDIO.html" class="botonnoindex">
-                                EL ESTUDIO
-                            </a>
-                        </li>
-                        <li>
-                            <a href="SERVICIOS.html" class="botonnoindex">
-                                SERVICIOS
-                            </a>
-                        </li>
-                        <li>
-                            <a href="PROYECTOS.html" class="botonnoindex">
-                                PROYECTOS
-                            </a>
-                        </li>
-                        <li>  
-                            <a href="PROMOS.html" class="botonnoindex">
-                                PROMOS
-                            </a>
-                        </li>     
-                        <li>
-                            <a href="CONTACTO.html" class="botonnoindex">
-                                CONTACTO
-                            </a>
-                        </li>
-                    </ul>
-        </nav>
-    </header>  
-<!-- FIN HEADER -->
-<!-- INICIO MAIN -->
-    <main> 
-        <section class="promospantallachica">
-            <h3 class="titulopromos">PROMO 1</h3>
-                    <p class="estudio">
-                    4 ensayos de 2 horas en nuestra sala <br>
-                    Grabacion stereo de 2 de los ensayos <br>
-                    Produccion/coaching/arreglos <br>
-                    50 horas de estudio (para grabacion, edicion y mezcla) <br>
-                    Masterizacion de todo el material <br>
-                    Incluye tecnico de grabacion. <br>
-                    $90.000
-                    </p>
-                  <button class="card__button">Consulta</button>
-                </div>
-              </div>
-                  <h3 class="titulopromos">PROMO 2</h3>
-                  <p class="estudio">4 ensayos de 2 horas en nuestra sala <br>
-                    Grabacion stereo de 2 de los ensayos <br>
-                    Produccion/coaching/arreglos <br>
-                    30 horas de estudio (para grabacion, edicion y mezcla) <br>
-                    Masterizacion de todo el material <br>
-                    Incluye tecnico de grabacion. <br>
-                    $50.000</p>
-                  <button class="card__button">Consulta</button>
-                </div>
-              </div>
-              
-                  <h3 class="titulopromos">PROMO 3</h3>
-                  <p class="estudio"> 2 ensayos de 2 horas en nuestra sala <br>
-                    Grabacion stereo de 2 de los ensayos <br>
-                    Produccion/coaching/arreglos <br>
-                    20 horas de estudio (para grabacion, edicion y mezcla) <br>
-                    Masterizacion de todo el material <br>
-                    Incluye tecnico de grabacion. <br>
-                    $20.000
-                    <button class="card__button">Consulta</button>
-                    </p>
-        </section>
-        <section class=promospantallagrande>
-        <div class="container">
-            <div class="card__container">
-              <div class="card">
-                <div class="card__content">
-                  <h3 class="card__header">PROMO 1</h3>
-                    <p class="card__info">
-                    4 ensayos de 2 horas en nuestra sala <br>
-                    Grabacion stereo de 2 de los ensayos <br>
-                    Produccion/coaching/arreglos <br>
-                    50 horas de estudio (para grabacion, edicion y mezcla) <br>
-                    Masterizacion de todo el material <br>
-                    Incluye tecnico de grabacion. <br>
-                    $90.000
-                    </p>
-                  <button class="card__button">Consulta</button>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card__content">
-                  <h3 class="card__header">PROMO 2</h3>
-                  <p class="card__info">4 ensayos de 2 horas en nuestra sala <br>
-                    Grabacion stereo de 2 de los ensayos <br>
-                    Produccion/coaching/arreglos <br>
-                    30 horas de estudio (para grabacion, edicion y mezcla) <br>
-                    Masterizacion de todo el material <br>
-                    Incluye tecnico de grabacion. <br>
-                    $50.000</p>
-                  <button class="card__button">Consulta</button>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card__content">
-                  <h3 class="card__header">PROMO 3</h3>
-                  <p class="card__info"> 2 ensayos de 2 horas en nuestra sala <br>
-                    Grabacion stereo de 2 de los ensayos <br>
-                    Produccion/coaching/arreglos <br>
-                    20 horas de estudio (para grabacion, edicion y mezcla) <br>
-                    Masterizacion de todo el material <br>
-                    Incluye tecnico de grabacion. <br>
-                    $20.000noindex
-                    </p>
-                  <button class="card__button">Consulta</button>
-                </div>
-              </div>
+    <header>
+        <div class="logo">
+            <img src="Multimedia/redstudy.png" alt="RedStudy estudio de grabacion" width="250" height="250">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link boton" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link boton" href="ELESTUDIO.html">El Estudio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link boton" href="SERVICIOS.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link boton" href="PROYECTOS.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link boton" href="PROMOS.html">Promos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link boton" href="CONTACTO.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-          </div>
+        </nav>
+    </header>
+    <!-- FIN HEADER -->
+    <!-- INICIO MAIN -->
+    <main>
+        <section class="promospantallagrande">
+            <h3 class="titulopromos">PROMO 1</h3>
+            <p class="estudio">
+                4 ensayos de 2 horas en nuestra sala <br>
+                Grabacion stereo de 2 de los ensayos <br>
+                Produccion/coaching/arreglos <br>
+                50 horas de estudio (para grabacion, edicion y mezcla) <br>
+                Masterizacion de todo el material <br>
+                Incluye tecnico de grabacion. <br>
+                $90.000
+            </p>
+            <button class="card__button">Consulta</button>
+            </div>
+            </div>
+            <h3 class="titulopromos">PROMO 2</h3>
+            <p class="estudio">4 ensayos de 2 horas en nuestra sala <br>
+                Grabacion stereo de 2 de los ensayos <br>
+                Produccion/coaching/arreglos <br>
+                30 horas de estudio (para grabacion, edicion y mezcla) <br>
+                Masterizacion de todo el material <br>
+                Incluye tecnico de grabacion. <br>
+                $50.000</p>
+            <button class="card__button">Consulta</button>
+            </div>
+            </div>
+
+            <h3 class="titulopromos">PROMO 3</h3>
+            <p class="estudio"> 2 ensayos de 2 horas en nuestra sala <br>
+                Grabacion stereo de 2 de los ensayos <br>
+                Produccion/coaching/arreglos <br>
+                20 horas de estudio (para grabacion, edicion y mezcla) <br>
+                Masterizacion de todo el material <br>
+                Incluye tecnico de grabacion. <br>
+                $20.000
+                <button class="card__button">Consulta</button>
+            </p>
         </section>
-        
     </main>
-<!-- FIN MAIN -->
+    <!-- FIN MAIN -->
     <hr>
-<!-- INICIO FOOTER -->
+    <!-- INICIO FOOTER -->
     <footer>
         <p class="estudio">
-            Copyright &copy; 2022-2022 RedStudy. All rights reserved. Designed & developed by Matias Abut. 
+            Copyright &copy; 2022-2022 RedStudy. All rights reserved. Designed & developed by Matias Abut.
         </p>
         <br>
         <ul class="listafooter">
-                <li>    
-                    <a href="https://wa.me/######" class="boton">
-                        <img src="Multimedia/Imagen/whatsapp-logo-11.png" alt="whatsapp logo" width="25" height="25">Whatsapp
-                    </a>
-                </li>    
+            <li>
+                <a href="https://wa.me/######" class="boton">
+                    <img src="Multimedia/Imagen/whatsapp-logo-11.png" alt="whatsapp logo" width="25"
+                        height="25">Whatsapp
+                </a>
+            </li>
             <br>
-                <li>
-                    <a href="https://www.instagram.com/redstudys/" class="boton">
-                        <img src="Multimedia/Imagen/instagramlogo.png" alt="instagram logo" width="25" height="25"> Instagram
-                    </a>
-                </li>
+            <li>
+                <a href="https://www.instagram.com/redstudys/" class="boton">
+                    <img src="Multimedia/Imagen/instagramlogo.png" alt="instagram logo" width="25" height="25">
+                    Instagram
+                </a>
+            </li>
             <br>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCVVrzKCP_-hrq6I3-8IuRtg" class="boton">
-                        <img src="Multimedia/Imagen/yotubelogo.png" alt="youtube logo" width="35" height="25"> Youtube
-                    </a>
-                </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCVVrzKCP_-hrq6I3-8IuRtg" class="boton">
+                    <img src="Multimedia/Imagen/yotubelogo.png" alt="youtube logo" width="35" height="25"> Youtube
+                </a>
+            </li>
             <br>
         </ul>
     </footer>
-<!-- FIN FOOTER -->
-
+    <!-- FIN FOOTER -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
