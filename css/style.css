@@ -1,53 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
-header {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  position: fixed;
-  width: 100%;
-  background-image: url(/Multimedia/Imagen/depositphotos_24993945-stock-photo-abstract-black-background.jpg); }
-
-body {
-  background-image: url(/Multimedia/Imagen/depositphotos_24993945-stock-photo-abstract-black-background.jpg); }
-
-main {
-  padding-top: 15%; }
-
-.listanavegador, .listanavegadorindex {
+.listacontactos {
   list-style: none;
   display: flex;
-  justify-content: right;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 8em; }
+  justify-content: space-around;
+  align-items: center; }
 
-nav {
-  margin-right: 4%; }
-
-nav a:hover {
-  color: red;
-  transition: all 1s; }
-
-footer a:hover {
-  color: red;
-  transition: all 1s; }
-
-.listacontactos a:hover {
-  color: red;
-  transition: all 1s; }
-
-.boton, .botonnoindex {
+.contacto {
   text-decoration: none;
-  color: #660404;
   font-size: 30px;
   font-family: MV Boli, fantasy;
   background-color: black;
-  padding-left: 30px;
-  padding-right: 30px;
-  border: 2px solid #660404;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 10px; }
+  color: #b10729;
+  border: 2px solid #660404; }
+
+.formulario {
+  color: #b10729;
+  background-color: black;
+  display: inline; }
+
+.botoncontactos {
+  text-decoration: none; }
 
 .estudio {
   background-color: black;
@@ -58,6 +30,20 @@ footer a:hover {
 .imgestudio, .imgestudio1, .imgestudioservicios {
   border-radius: 10%; }
 
+.elestudio {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row; }
+
+.elestudio2 {
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-items: center;
+  justify-items: center; }
+
 .titulopromos {
   background-color: black;
   color: #b10729;
@@ -66,18 +52,9 @@ footer a:hover {
   flex-wrap: wrap;
   justify-content: space-around; }
 
-.listafooter {
-  list-style: none;
+.estudiopromos, .titulospromos {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-right: 10%; }
-
-.listacontactos {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  justify-content: space-around; }
 
 .albums {
   list-style: none;
@@ -98,41 +75,59 @@ footer a:hover {
   align-items: center;
   flex-wrap: wrap; }
 
-.contacto {
-  text-decoration: none;
-  font-size: 30px;
-  font-family: MV Boli, fantasy;
-  background-color: black;
-  color: #b10729;
-  border: 2px solid #660404; }
-
 .servicios {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
 
-.estudiopromos, .titulospromos {
+header {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  background-image: url(/Multimedia/Imagen/depositphotos_24993945-stock-photo-abstract-black-background.jpg); }
 
-.elestudio {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row; }
+body {
+  background-image: url(/Multimedia/Imagen/depositphotos_24993945-stock-photo-abstract-black-background.jpg); }
 
-.elestudio2 {
-  display: grid;
-  grid-template-rows: 300px 300px 300px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  align-items: center;
-  justify-items: center; }
+main {
+  padding-top: 15%; }
 
-.formulario {
+nav {
+  margin-right: 4%; }
+
+nav a:hover {
   color: #b10729;
+  transition: all 1s; }
+
+footer a:hover {
+  color: #b10729;
+  transition: all 1s; }
+
+.listacontactos a:hover {
+  color: #b10729;
+  transition: all 1s; }
+
+.boton, .botonnoindex {
+  text-decoration: none;
+  color: #660404;
+  font-size: 30px;
+  font-family: MV Boli, fantasy;
   background-color: black;
-  display: inline; }
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 2px solid #660404;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px; }
+
+.listafooter {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10%; }
 
 *,
 *::before,
