@@ -3,9 +3,10 @@
 @import '../scss/secciones/promos';
 @import '../scss/secciones/proyectos';
 @import '../scss/secciones/servicios';
-@import '../scss/secciones/general'; 
+@import '../scss/secciones/general';
 @import '../scss/base/colors';
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
+
 *,
 *::before,
 *::after {
@@ -17,54 +18,66 @@
 }
 
 
- /* Media queries */
+/* Media queries */
 
- @media screen and (max-width: 1100px) {
-  .listaspotify{
+@media screen and (max-width: 1100px) {
+  .carouselyoutube {
     display: none;
   }
-  .listanavegadorindex, .listanavegador{
+
+  .listanavegadorindex,
+  .listanavegador {
     flex-direction: column;
     margin-top: 2em;
 
   }
-  .botonnoindex{
+
+  .botonnoindex {
     font-size: 1.2em;
 
   }
-  header{
+
+  header {
     position: static;
   }
+
   *,
-*::before,
-*::after {
-  margin: 13px;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Macondo', cursive;
-  margin-left: 9px;
-}
-.elestudio{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.imgestudio1{
-  width: 50%;
-}
-.elestudio2{
-  display: none;
-}
+  *::before,
+  *::after {
+    margin: 13px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Macondo', cursive;
+    margin-left: 9px;
+  }
 
-.servicios{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .elestudio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.titulopromos{
-  align-content: center;
-  align-items: center;
-}
+  .imgestudio1 {
+    width: 50%;
+  }
 
+  .elestudio2 {
+    display: none;
+  }
+
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titulopromos {
+    align-content: center;
+    align-items: center;
+  }
+
+  .botonfooter {
+    margin-left: -4.0rem;
+    margin-right: 0.5rem;
+  }
 }

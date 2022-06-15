@@ -1,16 +1,17 @@
 @import '../base/colors';
 
-.titulopromos{
-    background-color:$color3;
-    color: $color1;
-    font-family: MV Boli, fantasy;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+.titulopromos {
+  background-color: $color3;
+  color: $color1;
+  font-family: MV Boli, fantasy;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-  
-.estudiopromos, .titulospromos{
-    display: flex;
-    justify-content: space-around;
+
+.estudiopromos,
+.titulospromos {
+  display: flex;
+  justify-content: space-around;
 }

@@ -1,23 +1,26 @@
 @import '../base/colors';
-.estudio{
-    background-color:$color3;
-    color: $color1;
-    display: inline;
-    font-size: 1em;
-  }
-  
-  .imgestudio, .imgestudio1, .imgestudioservicios {
-  border-radius: 10%;
-  
-  }
 
-  .elestudio{
-    display: flex;
-    justify-content: space-around;
-    flex-direction:row;
+.estudio {
+  background-color: $color3;
+  color: $color1;
+  display: inline;
+  font-size: 1em;
 }
 
-.elestudio2{
+.imgestudio,
+.imgestudio1,
+.imgestudioservicios {
+  border-radius: 10%;
+
+}
+
+.elestudio {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.elestudio2 {
   display: grid;
   grid-template-rows: 300px 300px 300px;
   grid-template-columns: 1fr 1fr 1fr;

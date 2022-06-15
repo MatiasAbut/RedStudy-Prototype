@@ -1,30 +1,29 @@
 @import '../base/colors';
 
-.listacontactos{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-.contacto {
-    text-decoration: none;
-    font-size: 30px;
-    font-family: MV Boli, fantasy;
-    background-color:$color3;
-    color: $color1;
-    border: 2px solid $color2;
-  
-  }
-
-.formulario {
-    color: $color1;
-    background-color:$color3;
-    display: inline;
-  
-  }
-
-.botoncontactos{
-  text-decoration: none;
+.listacontactos {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.contacto {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: MV Boli, fantasy;
+  background-color: $color3;
+  color: $color1;
+  border: 2px solid $color2;
+
+}
+
+.formulario {
+  color: $color1;
+  background-color: $color3;
+  display: inline;
+
+}
+
+.botoncontactos {
+  text-decoration: none;
+}
