@@ -27,9 +27,7 @@
   display: inline;
   font-size: 1em; }
 
-.imgestudio,
-.imgestudio1,
-.imgestudioservicios {
+.imgestudio, .imgestudio1, .imgestudioservicios {
   border-radius: 10%; }
 
 .elestudio {
@@ -54,8 +52,7 @@
   flex-wrap: wrap;
   justify-content: space-around; }
 
-.estudiopromos,
-.titulospromos {
+.estudiopromos, .titulospromos {
   display: flex;
   justify-content: space-around; }
 
@@ -67,9 +64,7 @@
   flex-wrap: wrap;
   margin-bottom: 20px; }
 
-.album1:hover,
-.album2:hover,
-.album3:hover {
+.album1:hover, .album2:hover, .album3:hover {
   transform: scale(1.2);
   transition: 1s; }
 
@@ -114,9 +109,7 @@ footer a:hover {
   color: #b10729;
   transition: all 1s; }
 
-.boton,
-.botonnoindex,
-.botonfooter {
+.boton, .botonnoindex, .botonfooter {
   text-decoration: none;
   color: #660404;
   font-size: 1.8rem;
@@ -182,4 +175,6 @@ footer a:hover {
     align-items: center; }
   .botonfooter {
     margin-left: -4.0rem;
-    margin-right: 0.5rem; } }
+    margin-right: 0.5rem; }
+  .disclaimer {
+    display: none; } }
