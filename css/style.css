@@ -25,10 +25,14 @@
   background-color: black;
   color: #b10729;
   display: inline;
-  font-size: 1em; }
+  font-size: 1em;
+  border: 2px #660404 solid;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
 
 .imgestudio, .imgestudio1, .imgestudioservicios {
-  border-radius: 10%; }
+  border-radius: 10%;
+  border: 3px #660404 solid; }
 
 .elestudio {
   display: flex;
@@ -177,4 +181,8 @@ footer a:hover {
     margin-left: -4.0rem;
     margin-right: 0.5rem; }
   .disclaimer {
+    display: none; }
+  .listamusica {
+    display: none; }
+  .listacontactos {
     display: none; } }
